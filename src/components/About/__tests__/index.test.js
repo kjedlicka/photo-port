@@ -6,7 +6,7 @@ import About from '..';
 afterEach(cleanup);
 
 describe('About component', () => {
-  // First Test
+  // First Test<a data-testid="link" href="/">
   it('renders', () => {
     render(<About />);
   });
